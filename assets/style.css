@@ -48,7 +48,6 @@ footer{
 
 .main-container{
     margin-top: 100px;
-    height: 100vh;
 }
 
 .flower{
@@ -185,6 +184,24 @@ footer{
         margin-top: 20px;
     }
 
+    .write-up{
+        text-align: center;
+    }
+
+    .write-up p{
+        width: 90%;
+        margin: 20px auto;
+        text-align: left;
+    }
+
+    .col-11{
+        margin-left: 10px;
+    }
+
+    .mob-hide{
+        display: none;
+    }
+
     #blob-container{
         text-align: center;
     }
@@ -197,6 +214,14 @@ footer{
     #skills-header{
         margin-top: 3rem;
         margin-bottom: 1.5rem !important;
+    }
+
+    #video-container{
+        width: 100%;
+    }
+
+    #val-ad{
+        width: 100%;
     }
 }
 
