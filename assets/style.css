@@ -137,19 +137,35 @@ footer{
     color: var(--orange);
 }
 
+.sample-iframe {
+    border-radius:.25rem;
+    height: 32rem;
+    width: 32rem;
+}
+
+.sample-blurb {
+    padding: 12px;
+
+    h4 {
+        display: inline-block;
+        border-bottom: 3px dotted #ff7f00 !important;
+        margin-bottom: 16px;
+    }
+}
+
 /* Id's */
 
 #samples-container{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: var(--grey);
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     border-bottom: 3px solid var(--orange);
 }
 
 #samples-headliner{
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 #val-ad{
